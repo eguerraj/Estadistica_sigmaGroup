@@ -1,0 +1,38 @@
+Com utilitzar el git facil
+
+1.git pull (Actualitzarte la teva versio a la versio del servidor)
+
+2.Programar el que vols fer
+
+3.git add . (Dirli al git que miri els canvis que has fet, pero encara no es gurden)
+
+4.git commit -m "Missatge que descriu els canvis que estas implementant" (El git guardara els canvis i els identificara. Seran descrits per el string.)
+
+5.git pull
+Resolde conflictes si n'hi han (preguntar al robert)
+
+6.git push (Actualitzar el servidor amb els canvi que has realitzat)
+
+El resum: git add . && git commit -m "Missatge" && git pull && git push
+
+
+
+
+
+git branch = Llistar totes les branques que tens en local.
+
+git branch [Nom de branca] = Crear una nova branca en el ordinador local del nom que es fiqui.
+
+git checkout [Nom de branca] = Surts de la branca que hi estaves, i passes a la branca del nom que es fiqui
+
+git add . = Afegir tots els cambis al programa Git local.
+
+git commit -m "[Text del commit]" = Guardar tots els cambis fets i registrarlos a l'historial de la branca que s'esta treballant.
+
+git pull origin [Nom de branca] = Agafes els nous cambis que han aparegut al servidor de la branca que es fiqui, i aquests cambis els insereixes a la branca que hi estas treballant. El exemple tipic es "git pull origin dev" ja que aixi podries descarregar els cambis dels nostres companys cap a dins la branca que hi estem treballant
+
+git push = Pujar els cambis fets en la branca que estas treballant cap a el servidor SI es la primera vegada que fas git push en la branca que estas treballant, et demanara que facis aquest comandament abans. NOMES ES FA 1 COP PER NOVA BRANCA: git branch --set-upstream-to origin/[Nom de la branca en que estas treballant]
+
+
+
+esc + : + q
