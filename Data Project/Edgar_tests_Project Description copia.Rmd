@@ -1,27 +1,27 @@
-read.table("Oscars-demographics-DFE.csv");
-Oscars.demographics.DFE <- read.csv("~/Documents/git/Estadistica_sigmaGroup/Data Project/Oscars-demographics-DFE.csv")
-View(Oscars.demographics.DFE)
-View(Oscars.demographics.DFE)
-data_Oscars<- read.csv("Oscars-demographics-DFE.csv")
-View(Oscars.demographics.DFE)
-View(data_Oscars)
-knitr::opts_chunk$set(echo = TRUE)
 ---
 title: Your Data Won’t Speak Unless You Ask It The Right Data Analysis Questions
 author: Harry Potter
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
-prettydoc::html_pretty:
-theme: cayman
-highlight: github
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
 # Project Description
+
 You need to find a *data project* you like
+
 ## Where can you find Data Sets
+
+
 > There are plenty of sites where you can see around
+
+
 + data.world <https://data.world/>
 + kaggle <https://www.kaggle.com/datasets>
 + FiveThirthyEight <https://fivethirtyeight.com/>
@@ -38,53 +38,111 @@ You need to find a *data project* you like
 + Google Finance <https://www.google.com/finance>
 + National Climatic Data Center <http://www.ncdc.noaa.gov/data-access/quick-links#loc-clim>
 + ... and many more
+
+
 # What you need to deliver
+
 You need to follow somehow the **CRISP - DM** framework. To be specific:
+
+
 > 1) Find a data set (at least with some continuous and factor variables)
 > A data set concerns the race, religion, age, and other demographic details of all Oscar      winners since 1928 in the * Best * Actor categorie.
+
 Once you find a data set explain what is this data set, study where this data came from and why it was recorded. Remember to indicate the source of the data.
+
+
+
 ## Inspect the Data Set
+
 > 2) Explain what this data set is about
+
+
 At this point is ideal to understand that there is a clear business goal.
+
+
+
+
 ## Download the data
-> 3) Be sure you can load the data set inside R.
-Check that the data is available and ready
+
+> 3) Be sure you can load the data set inside R. 
+
+Check that the data is available and ready 
 to load on R. You can take a look at the most important features as well.
+
 data_Oscars<- read.csv("Oscars-demographics-DFE.csv")
+
+
 ## Inspect the Data Set
+
 > 4) Follow the EDA to figure out the key points of your data project
+
 Describe which techniques, statistics, graphs you are going to use
+
+
+
+
+
 # Ideal Situation
+
 The best project can certainly explain:
+
 > 1) Problem Understanding
+
 Take a look at the EEG lab assignment
+
 > 2) Data Understanding
+
 Take a look at the EEG lab assignment
+
 > 3) Data Preparation
+
 Take a look at the EEG lab assignment
+
+
+
 # Deadline
 You should deliver your *.Rmd* file and the report generated (only *.PDF*) before
+
 > 22th February 2020
+
+
 Be sure to include
+
 > the GROUP NAME + Greek letter
+
+
 And after that you can show a list with the names and surnames of the members of the group. It will be worth proposing task assigned and responsabilities
+
+
 > Do not forget Names of the Group
+
+
 > Write in *authors* the names of the whole team members
+
+
+
 # Feel Free to ask for ASSISTANCE
+
+
 > Instructor will be happy to help
+
+
+
 # $\boxtimes$ Mandatory Development tasks for all projects
+
 ## $\hookrightarrow$ 1) Project introduction
+
 ## $\hookrightarrow$ 2) Project Goal
+
 ## $\hookrightarrow$ 3) EDA
+
 ## $\hookrightarrow$ 4) Probability
+
 ## $\hookrightarrow$ 5/6) Discrete / Continuous Random Variable
+
 ## $\hookrightarrow$ 7) Inference: Confidence Intervals / Hypothesis Testing
+
 ## $\hookrightarrow$ 8) Linear Models: Regression / ANOVA
+
 ## $\hookrightarrow$ 9) Key Conclusions
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(echo = TRUE)
-str(data_oscars)
-str(data_Oscars)
-summary(data_Oscars)
-plot(data_Oscars)
-plot(data_Oscars)
+
